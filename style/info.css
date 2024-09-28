@@ -15,6 +15,7 @@
     grid-template-columns: repeat(2, 1fr);
     margin-top: 4em;
     margin-bottom: 6em;
+    padding: 4% 10%;
 }
 .info_card{
     text-align: center;
@@ -47,11 +48,26 @@
 
 .info_h1{
     color: #fff;
-    font-size: 2.2em;
+    font-size: 1.5em;
     text-transform: capitalize;
     font-weight: 700;
     line-height: 1.25em;
     padding-bottom: 1em;
+    padding-left: 1em;
+    padding-top: 0.4em;
+    margin-bottom: 1em;
+    border-bottom: 2px solid #fb7d7d;
+    border-left: 2px solid #fb7d7d;
+}
+
+.info_h1_2{
+    color: #fff;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 1.25em;
+    padding-bottom: 1em;
+    padding-left: 1em;
     padding-top: 0.4em;
     margin-bottom: 1em;
     border-bottom: 2px solid #fb7d7d;
@@ -115,6 +131,8 @@
     }
     .info_h1 {
         font-size: 1.8em;
+        border-left: none;
+        padding-left: 0;
     }
     .info_h4 {
         font-size: 0.6em;
