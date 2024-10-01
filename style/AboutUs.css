@@ -218,7 +218,7 @@ hr{
 
 @media (max-width: 500px){
     .aboutUs_text .aboutUs_p{
-        max-width: 600px;
+        max-width: 300px;
         color: #fff;
         font-size: 1em;
         font-weight: 400;
